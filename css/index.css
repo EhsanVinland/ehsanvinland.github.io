@@ -1,0 +1,126 @@
+
+body{
+    width: auto;
+    height: 3000px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    color: #484848;
+}
+
+#menubar{
+
+}
+
+#home{
+    width: auto;
+    height: 1000px;
+    background-image: url(../images/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#layer{
+    background-color: rgba(0,0,0,0.5);
+    width: auto;
+    height: 1000px;
+}
+
+#avatar{
+    height: 90vh;
+}
+
+img{
+    width: 170px;
+    height: 170px;
+}
+
+.home-s-btn {
+	display: block;
+	bottom: 50px;
+	height: 40px;
+	width: 26px;
+	border: 2px solid #efefef;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+}
+
+@keyframes dot-animation {
+	0% {
+		top: -moz-calc(50% - 6px);
+		top: calc(50% - 6px);
+		opacity: 1;
+		}
+	40% {
+		top: 50%;
+		opacity: 0;
+		}
+	100% {
+		top: -moz-calc(50% - 6px);
+		top: calc(50% - 6px);
+		opacity: 0;
+		}
+}
+
+.home-s-btn .dot {
+	display: block;
+	height: 6px;
+	width: 6px;
+	background-color: #efefef;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-animation: dot-animation 1.8s infinite ease-in-out;
+	-moz-animation: dot-animation 1.8s infinite ease-in-out;
+	animation: dot-animation 1.8s infinite ease-in-out;
+}
+
+.center {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.hor-center {
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+a, a:focus, a:hover, a:active {
+	text-decoration: none;
+	color: inherit;
+	outline: none;
+}
+
+a, a:focus, a:hover, a:active {
+	color: inherit;
+}
+
+.section {
+	background-color: #fff;
+	padding: 100px 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.social-list{
+	font-size: 20px;
+}
+
+.bar{
+	margin-top: 20px;
+}
