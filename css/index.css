@@ -113,14 +113,57 @@ a, a:focus, a:hover, a:active {
 	padding: 100px 0;
 }
 
+.second-bg {
+	background-color: #fafafa;
+}
+
 ul {
 	list-style-type: none;
 }
 
 .social-list{
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .bar{
-	margin-top: 20px;
+	margin-top: 25px;
 }
+
+.s-line {
+	margin: 12px auto 0;
+	width: 55px;
+	height: 1px;
+	background-color: #333;
+}
+
+.p-services{
+	text-align: center;
+}
+
+.single-service {
+	padding: 10px;
+	text-align: center;
+}
+
+.service-icon .fab {
+	font-size: 44px;
+	line-height: 70px;
+}
+
+.effect {
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+.service-content h3 {
+	font-size: 19px;
+	margin-top: 15px;
+	margin-bottom: 0;
+	font-weight: 700;
+}
+
+/* h3{
+	text-align: center;
+} */
