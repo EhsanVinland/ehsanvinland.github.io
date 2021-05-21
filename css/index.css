@@ -1,3 +1,28 @@
+@media screen and (max-width:575px){
+
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+
+}
+
+@media screen and (min-width:1200px) and (max-width:1399px){
+
+
+}
+
+@media screen and (min-width:1400px){
+
+
+}
 
 body{
     width: auto;
@@ -125,19 +150,19 @@ ul {
 	font-size: 25px;
 }
 
+.social-list a:hover{
+	color: #969696;
+}
+
 .bar{
 	margin-top: 25px;
 }
 
 .s-line {
-	margin: 12px auto 0;
+	margin: 10px auto;
 	width: 55px;
 	height: 1px;
 	background-color: #333;
-}
-
-.p-services{
-	text-align: center;
 }
 
 .single-service {
@@ -145,9 +170,26 @@ ul {
 	text-align: center;
 }
 
-.service-icon .fab {
+.service-icon{
 	font-size: 44px;
 	line-height: 70px;
+}
+
+.services-separator {
+	display: block;
+	width: 100%;
+	margin: 15px auto;
+	height: 1px;
+	background: #dfdfdf;
+}
+
+.single-service:hover .effect{
+	-webkit-transform: rotateY(360deg);
+	-moz-transform: rotateY(360deg);
+	-o-transform: rotateY(360deg);
+	transform: rotateY(360deg);
+	color: #969696;
+	font-size: 50px;
 }
 
 .effect {
@@ -163,7 +205,3 @@ ul {
 	margin-bottom: 0;
 	font-weight: 700;
 }
-
-/* h3{
-	text-align: center;
-} */
