@@ -29,18 +29,6 @@
 		padding: 10px 10%;
 		z-index: 5;
 	}
-
-	.services-border-right{
-		border-right: 1px solid #dee2e6;
-	}
-	
-	.services-separator {
-		display: block;
-		width: 100%;
-		margin: 15px auto;
-		height: 1px;
-		background: #dfdfdf;
-	}
 }
 
 @media screen and (min-width:992px) and (max-width:1199px){
@@ -396,7 +384,7 @@ a, a:focus, a:hover, a:active {
 
 #contact{
 	width: auto;
-	height: 900px;
+	height: auto;
 }
 
 .circle-icon {
@@ -407,6 +395,10 @@ a, a:focus, a:hover, a:active {
 
 .pt-100{
 	padding-top: 100px;
+}
+
+.outline-none{
+	outline: 0;
 }
 
 .submit-btn {
