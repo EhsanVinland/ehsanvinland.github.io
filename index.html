@@ -15,51 +15,53 @@
 </head>
 
 <body>
+    <div class="container">
+        <nav id="menubar" class="navbar navbar-expand-md navbar-dark">
+            <a href="#" class="navbar-brand">Imozar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li>
+                        <a class="nav-link" href="#home">HOME</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#services">SERVICES</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#work">WORK</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#clients">CLIENTS</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#contact">CONTANT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <section id="home">
         <div id="layer">
-            <div class="container">
-                <nav id="menubar" class="navbar navbar-expand-md navbar-dark">
-                    <a href="#" class="navbar-brand">Imozar</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="toggleMobileMenu">
-                        <ul id="NavBar" class="navbar-nav ms-auto">
-                            <li>
-                                <a class="nav-link" href="#">HOME</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#">ABOUT</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#">SERVICES</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#">WORK</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#">CLIENTS</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#">CONTANT</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
             <div id="avatar" class="container text-white">
                 <div class="row h-100">
-                    <div class="col my-auto mx-auto">
-                        <img src="images/home-avatar.jpg" class="border border-3 rounded-circle d-block mx-auto"
-                            alt="Avatar">
-                        <h1 class="text-center mt-5">Hi, I'm Norman Doe</h1>
-                        <h2 class="text-center mt-3">let's work together </h2>
-                        <a href="#about" class="scroll home-s-btn hor-center"><span class="dot center"></span></a>
+                    <div class="col-6 my-auto mx-auto">
+                        <img src="images/01a.jpg" class="border border-3 rounded-circle d-block mx-auto" alt="Avatar">
+                        <h1 class="mt-5 text-center text-nowrap">Hi, I'm Ehsan Vinland</h1>
+                        <h2 id="typing1" class="text-center">i can create awesome stuff!</h2>
+                        <h3 id="typing2" class="text-center">let's work together</h3>
+                    </div>
+                    <div class="scroll">
+                        <a href="#about" class="home-s-btn hor-center"><span class="dot center"></span></a>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -68,65 +70,73 @@
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <h2>Hi There! I'm Norman Doe</h2>
-                    <p class="mt-4">I am a professional web designer from Manchester, England. I create beautiful
+                    <p class="mt-4 text-justify">I am a professional web designer from Manchester, England. I create
+                        beautiful
                         professional
                         websites
                         using best practice accessibility. I enjoy turning complex problems into simple, beautiful and
                         intuitive interface designs.</p>
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-12 col-md-5">
                             <ul class="ps-0">
-                                <li><span><i class="fa fa-envelope"></i> Email : </span>Norman@gmail.com</li>
-                                <li><span><i class="fa fa-map-marker"></i> Location : </span>4373, El Centro, CA.</li>
+                                <li><span><i class="fa fa-calendar"></i> Date of birth: </span>25 July 1985</li>
+                                <li><span><i class="fa fa-phone"></i> Phone: </span>+98-912-700-9921</li>
                             </ul>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-12 col-md-7">
                             <ul class="ps-0">
-                                <li><span><i class="fa fa-calendar"></i> Date of birth : </span>8 June 1995</li>
-                                <li><span><i class="fa fa-phone"></i> Phone : </span>+1-202-555-0138</li>
+                                <li><span><i class="fa fa-map-marker"></i> Location: </span>Tehran ,IRAN.</li>
+                                <li><span><i class="fa fa-envelope"></i> Email:
+                                    </span>ehsan[dot]vinland[at]gmail[dot]com</li>
                             </ul>
                         </div>
                     </div>
-                    <ul class="col-10 col-xl-6 social-list ps-0 d-flex justify-content-between">
-                        <li><a href="#" class="effect"><i class="fab fa-facebook"></i></a></li>
-                        <li><a href="#" class="effect"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#" class="effect"><i class="fab fa-google-plus"></i></a></li>
-                        <li><a href="#" class="effect"><i class="fab fa-linkedin"></i></a></li>
-                        <li><a href="#" class="effect"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#" class="effect"><i class="fab fa-pinterest-p"></i></a></li>
+                    <ul class="col-6 social-list ps-0 d-flex justify-content-between">
+                        <li><a href="https://www.facebook.com/ehsan.karimi.334/" target="_blank" class="effect"><i
+                                    class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/EhSaN05397244" target="_blank" class="effect"><i
+                                    class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://github.com/ehsanvinland/" target="_blank" class="effect"><i
+                                    class="fab fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/ehsan-karimi-46689294/" target="_blank"
+                                class="effect"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/ehsanvinland/?hl=en" target="_blank" class="effect"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.pinterest.com/" target="_blank" class="effect"><i
+                                    class="fab fa-pinterest-p"></i></a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="bar">
-                        <div class="pb-2"><span>&nbsp;&nbsp;HTML5, CSS3</span><span
-                                class="float-end">98%&nbsp;&nbsp;</span></div>
+                        <div class="pb-2"><span>&nbsp;&nbsp;HTML5</span><span class="float-end">98%&nbsp;&nbsp;</span>
+                        </div>
                         <div class="progress" style="height: 7px;">
-                            <div class="progress-bar-striped bg-secondary" role="progressbar" style="width: 98%"
-                                aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar-striped progress-bar-animated bg-secondary" role="progressbar"
+                                style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <div class="bar">
-                        <div class="pb-2"><span>&nbsp;&nbsp;ADOBE PHOTOSHOP</span><span
-                                class="float-end">92%&nbsp;&nbsp;</span></div>
+                        <div class="pb-2"><span>&nbsp;&nbsp;CSS3</span><span class="float-end">82%&nbsp;&nbsp;</span>
+                        </div>
                         <div class="progress" style="height: 7px;">
-                            <div class="progress-bar-striped bg-secondary" role="progressbar" style="width: 92%"
-                                aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar-striped progress-bar-animated bg-secondary" role="progressbar"
+                                style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <div class="bar">
-                        <div class="pb-2"><span>&nbsp;&nbsp;PHP & MySQL</span><span
-                                class="float-end">86%&nbsp;&nbsp;</span></div>
+                        <div class="pb-2"><span>&nbsp;&nbsp;BOOTSTRAP</span><span
+                                class="float-end">75%&nbsp;&nbsp;</span></div>
                         <div class="progress" style="height: 7px;">
-                            <div class="progress-bar-striped  bg-secondary" role="progressbar" style="width: 86%"
-                                aria-valuenow="86" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar-striped progress-bar-animated bg-secondary" role="progressbar"
+                                style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <div class="bar">
                         <div class="pb-2"><span>&nbsp;&nbsp;WORDPRESS</span><span
-                                class="float-end">94%&nbsp;&nbsp;</span></div>
+                                class="float-end">85%&nbsp;&nbsp;</span></div>
                         <div class="progress" style="height: 7px;">
-                            <div class="progress-bar-striped bg-secondary" role="progressbar" style="width: 94%"
-                                aria-valuenow="94" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar-striped progress-bar-animated bg-secondary" role="progressbar"
+                                style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -137,11 +147,13 @@
     <section id="services" class="section second-bg">
         <div class="container">
             <div class="row">
-                <h2 class="text-center">My Services</h2>
-                <div class="s-line mb-5"></div>
+                <div class="section-title">
+                    <h2>My Services</h2>
+                    <div class="s-line mb-5"></div>
+                </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-4 border-end">
+                <div class="col-12 col-md-4 services-border-right">
                     <div class="single-service">
                         <div class="service-icon">
                             <i class="fab fa-html5 effect"></i>
@@ -154,7 +166,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 border-end">
+                <div class="col-12 col-md-4 services-border-right">
                     <div class="single-service">
                         <div class="service-icon">
                             <i class="fa fa-laptop effect"></i>
@@ -183,7 +195,7 @@
             </div>
             <div class="services-separator"></div>
             <div class="row">
-                <div class="col-12 col-md-4 border-end">
+                <div class="col-12 col-md-4 services-border-right">
                     <div class="single-service">
                         <div class="service-icon">
                             <i class="far fa-image effect"></i>
@@ -197,7 +209,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 border-end">
+                <div class="col-12 col-md-4 services-border-right">
                     <div class="single-service">
                         <div class="service-icon">
                             <i class="fa fa-camera-retro effect"></i>
@@ -228,6 +240,193 @@
             </div>
         </div>
     </section>
+
+    <section id="work" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Portfolio</h2>
+                <div class="s-line mb-5"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul id="work-list" class="text-center d-flex justify-content-center">
+                        <li>
+                            <a href="#" class="filter effect filter-active" data-filter="*">all</a>
+                        </li>
+                        <li>
+                            <a href="#" class="filter effect" data-filter=".web">web</a>
+                        </li>
+                        <li>
+                            <a href="#" class="filter effect" data-filter=".design">design</a>
+                        </li>
+                        <li>
+                            <a href="#" class="filter effect" data-filter=".photography">photography</a>
+                        </li>
+                        <li>
+                            <a href="#" class="filter effect" data-filter=".music">Music</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 my-2">
+                    <div class="single-work">
+                        <a href="images/wok-1.jpg" class="">
+                            <img class="effect h-100 w-100" src="images/wok-1.jpg" alt="work">
+                        </a>
+                        <div class="overlay">WEB DEVELOPMENT</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 my-2">
+                    <div class="single-work">
+                        <a href="images/wok-2.jpg" class="">
+                            <img class="effect h-100 w-100" src="images/wok-2.jpg" alt="work">
+                        </a>
+                        <div class="overlay">MUSIC</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 my-2">
+                    <div class="single-work">
+                        <a href="images/wok-3.jpg" class="">
+                            <img class="effect h-100 w-100" src="images/wok-3.jpg" alt="work">
+                        </a>
+                        <div class="overlay">PHOTOGRAPHY</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 my-2">
+                    <div class="single-work">
+                        <a href="images/wok-4.jpg" class="">
+                            <img class="effect h-100 w-100" src="images/wok-4.jpg" alt="work">
+                        </a>
+                        <div class="overlay">WEB DEVELOPMENT</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 my-2">
+                    <div class="single-work">
+                        <a href="images/wok-2.jpg" class="">
+                            <img class="effect h-100 w-100" src="images/wok-2.jpg" alt="work">
+                        </a>
+                        <div class="overlay">WEB DESIGN</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 my-2">
+                    <div class="single-work">
+                        <a href="images/wok-6.jpg" class="">
+                            <img class="effect h-100 w-100" src="images/wok-6.jpg" alt="work">
+                        </a>
+                        <div class="overlay">PHOTOGRAPHY</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="clients" class="section second-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Testimonials</h2>
+                <div class="s-line mb-5"></div>
+            </div>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="images/Screenshot (51).png" class="d-block w-100 h-50" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="images/Screenshot (52).png" class="d-block w-100 h-50" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="section-title pt-100">
+                        <h2>Contact Me</h2>
+                        <div class="s-line mb-5"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col ps-5">
+                    <i class="fa fa-phone circle-icon text-light mx-2 float-start"></i><span
+                        class="d-block pt-2">PHONE</span><span>+98-912-700-9921</span>
+                </div>
+                <div class="col">
+                    <i class="fa fa-map-marker circle-icon text-light mx-2 float-start"></i><span
+                        class="d-block pt-2">LOCATION</span><span>Tehran, IRAN.</span>
+                </div>
+                <div class="col pe-5">
+                    <i class="fa fa-envelope circle-icon text-light mx-2 float-start"></i><span
+                        class="d-block pt-2">EMAIL</span><span>Ehsan[dot]Vinland[at]gmail[dot]com</span>
+                </div>
+            </div>
+            <form action="#">
+                <div class="row">
+                    <div class="col mt-5 text-center">
+                        <input class="rounded-1 border-1 p-2 ps-3 w-50" type="text" placeholder="Name">
+                    </div>
+                    <div class="col mt-5 text-center">
+                        <input class="rounded-1 border-1 p-2 ps-3 w-50" type="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mt-5 text-center">
+                        <textarea class="ounded-1 border-1 p-2 ps-3 w-75" style="resize: none;" name="Message"
+                            id="Message" placeholder="Message" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="col">
+                    <button type="submit" class="effect submit-btn">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <a href="index.html" class="effect footer-title">Ehsan</a>
+                <div class="footer-social">
+                    <ul class="d-flex justify-content-center footer-social-list">
+                        <li><a class="effect" href="https://www.facebook.com/ehsan.karimi.334/" target="_blank"><i
+                                    class="fab fa-facebook"></i></a></li>
+                        <li><a class="effect" href="https://twitter.com/EhSaN05397244" target="_blank"><i
+                                    class="fab fa-twitter"></i></a></li>
+                        <li><a class="effect" href="https://github.com/ehsanvinland/" target="_blank"><i
+                                    class="fab fa-github"></i></a></li>
+                        <li><a class="effect" href="https://www.linkedin.com/in/ehsan-karimi-46689294/"
+                                target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a class="effect" href="https://www.behance.net/" target="_blank"><i
+                                    class="fab fa-behance"></i></a></li>
+                        <li><a class="effect" href="https://www.instagram.com/ehsanvinland/?hl=en" target="_blank"><i
+                                    class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <p class="copy-text">Imozar © 2018. all right reserved, designed by <strong><a
+                            href="https://themeforest.net/user/phydev" target="_blank">PhyDev</a></strong>.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
