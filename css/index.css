@@ -5,6 +5,7 @@
 		left: 0px;
 		right: 0px;
 		padding: 10px 3%;
+		background-color: rgba(0,0,0,0.6);
 		z-index: 5;
 	}
 }
@@ -16,6 +17,7 @@
 		left: 0px;
 		right: 0px;
 		padding: 10px 3%;
+		background-color: rgba(0,0,0,0.6);
 		z-index: 5;
 	}
 }
@@ -27,6 +29,7 @@
 		left: 0px;
 		right: 0px;
 		padding: 10px 10%;
+		background-color: rgba(0,0,0,0.6);
 		z-index: 5;
 	}
 }
@@ -38,6 +41,7 @@
 		left: 0px;
 		right: 0px;
 		padding: 10px 10%;
+		background-color: rgba(0,0,0,0.6);
 		z-index: 5;
 	}
 
@@ -61,6 +65,7 @@
 		left: 0px;
 		right: 0px;
 		padding: 10px 10%;
+		background-color: rgba(0,0,0,0.6);
 		z-index: 5;
 	}
 
@@ -84,6 +89,7 @@
 		left: 0px;
 		right: 0px;
 		padding: 10px 16%;
+		background-color: rgba(0,0,0,0.6);
 		z-index: 5;
 	}
 
@@ -103,8 +109,8 @@
 
 body{
     width: auto;
-    height: 3000px;
-    font-family: 'Lato', sans-serif;
+    height: auto;
+    font-family:'Lato', sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.75;
@@ -114,7 +120,7 @@ body{
 
 #home{
     width: auto;
-    height: 1000px;
+    height: auto;
     background-image: url(../images/home-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -234,10 +240,6 @@ img{
 	-moz-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
-}
-
-#menubar{
-	background-color: rgba(0,0,0,0.6);
 }
 
 .section {
@@ -360,6 +362,7 @@ a, a:focus, a:hover, a:active {
 .single-work{
 	position: relative;
 }
+
 .overlay {
 	position: absolute; 
 	bottom: 0;
